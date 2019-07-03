@@ -1,0 +1,49 @@
+question1
+Desktop/myapp
+$touch index.html
+$touch app.js
+
+question 2
+$git clone url
+change the content in local machine
+$git add
+$git commit
+$git push
+
+question 3
+git status
+
+question 4
+git rm -rf --cached $FILES
+
+question 5
+git reflog
+ID   
+ID
+git reset --hard ID
+It deletes all the files below it(time wise)
+
+question 6
+
+before creating branch put your master uptodate
+git pull
+
+create branch
+git branch newbranchname
+
+switch to branch
+git checkout newbranchname
+
+git push origin newbranchname
+
+add remote to newbranch
+git remote add nameofremote newbranchname
+
+git push nameofremote url
+
+git fetch nameofremote
+
+git merge branchname
+
+question 7
+git commit -m 'comment' path of file to be commited
